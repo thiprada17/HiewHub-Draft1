@@ -7,7 +7,7 @@ import { HashRouter } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
+    <HashRouter basename="/HiewHub-Draft1/">
       <App />
     </HashRouter>
   </StrictMode>,

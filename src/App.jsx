@@ -15,8 +15,6 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function App() {
   return (
-
-    <HashRouter basename="/HiewHub-Draft1">
       <Router>
         <Routes>
           <Route path="/mainrunner" element={<MainRunner />} />
@@ -38,7 +36,5 @@ export default function App() {
           <Route path="/connect" element={<Connect />} />
         </Routes>
       </Router>
-
-    </HashRouter>
   );
 }
