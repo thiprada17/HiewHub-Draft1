@@ -17,23 +17,23 @@ export default function App() {
   return (
       <Router>
         <Routes>
-          <Route path="/mainrunner" element={<MainRunner />} />
-          <Route path="/mainfind" element={<MainFind />} />
+          <Route path="</HiewHub-Draft1/mainrunner" element={<MainRunner />} />
+          <Route path="/HiewHub-Draft1/mainfind" element={<MainFind />} />
 
-          <Route path="/" element={<SignIn />} />
-          <Route path="/signup" element={<SignUp />} />
+          <Route path="/HiewHub-Draft1/" element={<SignIn />} />
+          <Route path="/HiewHub-Draft1/signup" element={<SignUp />} />
 
-          <Route path="/postrunner" element={<PostRunner />} />
-          <Route path="/postfind" element={<PostFind />} />
+          <Route path="/HiewHub-Draft1/postrunner" element={<PostRunner />} />
+          <Route path="/HiewHub-Draft1/postfind" element={<PostFind />} />
 
-          <Route path="/editrunner" element={<EditRunner />} />
-          <Route path="/editfind" element={<EditFind />} />
+          <Route path="/HiewHub-Draft1/editrunner" element={<EditRunner />} />
+          <Route path="/HiewHub-Draft1/editfind" element={<EditFind />} />
 
-          <Route path="/formfind" element={<FormFind />} />
-          <Route path="/formrunner" element={<FormRunner />} />
+          <Route path="/HiewHub-Draft1/formfind" element={<FormFind />} />
+          <Route path="/HiewHub-Draft1/formrunner" element={<FormRunner />} />
 
-          <Route path="/aboutus" element={<AboutUs />} />
-          <Route path="/connect" element={<Connect />} />
+          <Route path="/HiewHub-Draft1/aboutus" element={<AboutUs />} />
+          <Route path="/HiewHub-Draft1/connect" element={<Connect />} />
         </Routes>
       </Router>
   );
